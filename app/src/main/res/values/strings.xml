@@ -3,4 +3,7 @@
     <string name="title_activity_main">MyBusTrip</string>
     
     <string name="location_permission_denied">Not using your location</string>
+    <string name="obtaining_realtime_data">Obtaining realtime data...</string>
+    <string name="direction">Direction</string>
+    <string name="realtime_data_unavailable">Realtime data unavailable</string>
 </resources>

@@ -2,7 +2,6 @@ package com.mybustrip.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonRootName;
-import com.google.android.gms.maps.model.LatLng;
 
 import java.util.List;
 

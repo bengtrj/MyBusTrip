@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="darkGrey">@android:color/darker_gray</color>
+
+    <color name="mapsBlue">#99B3CC</color>
+    <color name="mapsMarfil">#EDE6DE</color>
+    <color name="mapsGreen">#B4D39A</color>
+    <color name="mapsYellow">#FCF99A</color>
+    <color name="mapsBrown">#D4A23F</color>
 </resources>

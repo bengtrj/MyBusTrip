@@ -16,6 +16,9 @@
 #   public *;
 #}
 
+#ORM
+#-keep class com.yourpackage.yourapp.domainclasspackage.** { *; }
+
 #Retrofit
 -dontwarn retrofit2.**
 -keep class retrofit2.** { *; }

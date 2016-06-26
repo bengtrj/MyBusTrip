@@ -4,8 +4,6 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.google.android.gms.maps.model.LatLng;
 
 import java.io.IOException;
 
@@ -19,7 +17,6 @@ public class PlaceDeserializer extends com.fasterxml.jackson.databind.JsonDeseri
         final Place place = new Place();
 
         final JsonNode placeNode = jsonParser.getCodec().readTree(jsonParser);
-        place.setIcon(placeNode.get("icon").asText());
         place.setName(placeNode.get("name").asText());
 
         JsonNode locationNode = placeNode.get("geometry").get("location");
