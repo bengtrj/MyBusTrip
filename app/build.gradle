@@ -9,9 +9,9 @@ android {
     signingConfigs {
         debug {
             keyAlias 'bengt_hammarlund'
-            keyPassword 'gmjavaman1*'
-            storeFile file('/Users/bengthammarlund/Dropbox/Work/bengt_hammarlund.keystore')
-            storePassword 'gmjavaman1*'
+            keyPassword 'secret'
+            storeFile file('my.keystore')
+            storePassword 'secret'
         }
     }
     compileSdkVersion 23
